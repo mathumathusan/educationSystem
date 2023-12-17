@@ -1,0 +1,354 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.topbarContainer {
+  max-height: 80vh;
+  width: 100%;
+  background-image: url("../../../public/assets/items/item1.png");
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.topbarBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbarInputs {
+  width: 450px;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 18px; /* Adjust font size */
+  padding: 10px 20px; /* Add padding for better spacing */
+  border: 2px solid; /* Add a border for a clear boundary */
+  background-color: #d9d9d9; /* Make the background transparent */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.topbarInput:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+  outline: none; /* Remove the default focus outline */
+}
+
+.topbarInputIcon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.text {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 34px;
+}
+
+.text1 {
+  margin-left: 20px;
+}
+
+.text2 {
+  margin-left: 100px;
+}
+
+.textIcon {
+  display: flex;
+  /* align-items: center; */
+  position: relative;
+}
+
+.text3 {
+  color: whitesmoke;
+}
+
+.penIcon {
+  color: whitesmoke;
+  position: absolute;
+  top: 15px;
+  left: 660px;
+}
+
+.bodyContainerTop {
+  text-align: center;
+  position: relative;
+}
+
+.heading2 {
+  color: #0b3778;
+}
+
+.divbodyContainerTopList1,
+.divbodyContainerTopList2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imageside {
+  height: 400px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+}
+
+.imageside1 {
+  height: 400px;
+  width: 150px;
+  position: absolute;
+  right: 0;
+}
+
+.items3,
+.items2 {
+  height: 300px;
+  width: 300px;
+}
+
+.divbodyContainerTopList1 ul li,
+.divbodyContainerTopList2 ul li {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bodyContainerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bodyContainerBottom .image1 {
+  margin-right: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.bodyContainerBottomCenter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bodyContainerBottom .image4 {
+  height: 300px;
+  width: 300px;
+}
+
+.bodyContainerBottom .image2,
+.bodyContainerBottom .image3 {
+  height: 300px;
+  width: 300px;
+}
+
+.bodyContainerBottomCenter .image3 {
+  margin-top: 20px;
+}
+
+.bodyContainerBottomCenter .school {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  font-size: 34px;
+  font-weight: bold;
+  color: #0b3778;
+}
+
+.bodyContainerBottomCenter .image5 {
+  position: absolute;
+  left: -48%;
+  height: 650px;
+  width: 600px;
+}
+
+.bodyContainerBottomCenter .schools {
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  font-size: 34px;
+  font-weight: bold;
+  color: #0b3778;
+}
+
+.bodyContainerBottomCenter .volunteer {
+  position: absolute;
+  top: 75%;
+  left: 29%;
+  font-size: 34px;
+  font-weight: bold;
+  color: #0b3778;
+}
+
+.bodyContainerBottomCenter .volunteers {
+  position: absolute;
+  top: 85%;
+  left: 46%;
+  font-size: 34px;
+  font-weight: bold;
+  color: #0b3778;
+}
+
+.bottomText {
+  color: #0b3778;
+  text-align: center;
+  font-size: 34px;
+  font-style: italic;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .topbarImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .logoText {
+    font-size: 20px;
+  }
+
+  .topbarComponent {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .topbarInputs {
+    width: 350px;
+    height: 20px;
+    border-radius: 25px;
+    font-size: 14px; /* Adjust font size */
+    padding: 10px 20px; /* Add padding for better spacing */
+    border: 2px solid; /* Add a border for a clear boundary */
+    background-color: #d9d9d9; /* Make the background transparent */
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .topbarInputIcon {
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .bodyContainerBottom .image1 {
+    margin-right: 50px;
+    height: 200px;
+    width: 150px;
+  }
+
+  .bodyContainerBottom .image4 {
+    margin-left: 50px;
+    height: 200px;
+    width: 150px;
+  }
+
+  .bodyContainerBottom .image2,
+  .bodyContainerBottom .image3 {
+    height: 150px;
+    width: 130px;
+  }
+
+  .bodyContainerBottom .image5 {
+    left: -60%;
+    height: 350px;
+    width: 300px;
+  }
+
+  .imageside {
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+  }
+
+  .imageside1 {
+    height: 250px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+  }
+
+  .bodyContainerBottomCenter .school {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b3778;
+  }
+
+  .bodyContainerBottomCenter .schools {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b3778;
+  }
+
+  .bodyContainerBottomCenter .volunteer {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b3778;
+  }
+
+  .bodyContainerBottomCenter .volunteers {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b3778;
+  }
+
+  .bottomText {
+    color: #0b3778;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .items3,
+  .items2 {
+    height: 150px;
+    width: 150px;
+  }
+
+  .divbodyContainerTopList1 ul li,
+  .divbodyContainerTopList2 ul li {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .heading2,
+  .heading44 {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .penIcon {
+    color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    left: 390px;
+  }
+
+  .topbarContainer {
+    max-height: 80vh;
+    max-width: 100%;
+    background-image: url("../../../public/assets/items/item1.png");
+    background-size: 100% auto;
+    /* background-position: center; */
+  }
+}

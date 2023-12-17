@@ -1,0 +1,21 @@
+.footerContainer  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0B3778;
+}
+
+.footerContainer span {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .footerContainerIcons {
+    font-size: 30px;
+    padding: 8px 12px;
+  }
+
+  .footerContainerIcon{
+    padding-right: 10px;
+  }

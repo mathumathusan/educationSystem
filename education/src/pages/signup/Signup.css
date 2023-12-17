@@ -1,0 +1,63 @@
+
+
+body{
+    background: linear-gradient(to bottom, #aabfde, #d9d9d9);
+}
+
+.h3s {
+    margin-left: 40px;
+}
+
+.formside {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 30px;
+}
+
+.formright {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.formleft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+
+.forminput {
+  width: 400px;
+  height: 40px;
+  font-size: 18px; /* Adjust font size */
+  padding: 10px 20px; /* Add padding for better spacing */
+  border: 2px solid; /* Add a border for a clear boundary */
+  background-color: whitesmoke; /* Make the background transparent */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputradio {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: #9dbadc;
+  width: 450px;
+  height: 40px;
+  font-weight: bold;
+}
+.cus {
+  margin-top: 5px;
+}
+.radioinput {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.texths {
+  font-size: 15px;
+}

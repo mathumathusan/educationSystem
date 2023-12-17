@@ -1,0 +1,28 @@
+backend/node_modules
+education/node_modules
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+education/node_modules
+education/.pnp
+education/.pnp.js
+
+# testing
+education/coverage
+
+# production
+education/build
+
+# misc
+education/.DS_Store
+education/.env.local
+education/.env.development.local
+education/.env.test.local
+education/.env.production.local
+
+education/npm-debug.log*
+education/yarn-debug.log*
+education/yarn-error.log*

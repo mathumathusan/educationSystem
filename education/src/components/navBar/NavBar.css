@@ -1,0 +1,91 @@
+.topbarTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    padding: 10px 10px;
+   
+  }
+  
+  .topbarImg {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .topbarImgtext{
+    position:absolute;
+    width: 26px;
+    height: 28px;
+    left: 28px;
+  }
+  
+  .topbarLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoText {
+    font-size: 34px; /* Reduce font size for smaller screens */
+    font-style: italic;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+  
+  .topbarRight {
+    display: flex;
+    margin-right: 0;
+  }
+  
+  .topbarComponent {
+    width: 100px; /* Reduce button width for smaller screens */
+    height: 40px; /* Reduce button height for smaller screens */
+    cursor: pointer;
+    background-color: whitesmoke;
+    
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 16px; /* Reduce font size for smaller screens */
+    transition-duration: 0.5s;
+    font-weight: bold;
+  }
+
+  .topbarComponent:hover {
+    background-color: #0B3778;
+    color: white;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .topbarImg {
+      width: 40px;
+      height: 40px;
+      margin-right: 5px;
+    }
+
+    .topbarImgtext{
+      position:absolute;
+      width: 20px;
+      height: 20px;
+      left: 20px;
+    }
+  
+    .logoText {
+      font-size: 20px;
+    }
+  
+    .topbarComponent {
+      width: 80px;
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+
+
+  

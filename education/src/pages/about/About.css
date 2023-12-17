@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapperTops {
+    background-image: url('../../../public/assets/items/background2.png');
+    background-size: cover;
+    height: 60vh; /* Adjust the height as needed for mobile screens */
+    width: 100%;
+    position: relative;
+}
+.wrapperTops >h1{
+    font-size: 45px;
+    color: white;
+    font-style: italic;
+   position: absolute;
+   top: 60%;
+right: 0;
+}
+
+.wrapperTops >span{
+    font-size: 24px;
+    color: white;
+   position: absolute;
+   top: 80%;
+   left: 0;
+}
+
+.wrapperCenterTops{
+    display: flex;
+}
+
+.wrapperCenterTops>img{
+   height:300px ;
+   width: 300px;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+.text>h1{
+    color:#0B3778;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.text>span{
+    color:#000000;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.text2{
+margin-top: 40px;
+}
+
+.text2>h1{
+    color:#0B3778;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 40px;
+    }
+
+    
+.text2>span{
+    color:#000000;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.wrapperCenterBottoms{
+    display: flex;
+}
+
+.wrapperCenterBottoms>img{
+    height:300px ;
+    width: 300px;
+ }
+h2{ 
+    margin: 20px;
+    text-align: center;
+    color:#0B3778;
+ }
+ 
+@media screen and (max-width: 768px) {
+    /* Add responsive styles for screens with a maximum width of 768px (tablet screens) */
+    .wrapperTops {
+        height: 40vh; /* Adjust the height as needed for tablet screens */
+    }
+
+    .wrapperTops >h1{
+        font-size: 35px;
+        color: white;
+        font-style: italic;
+       position: absolute;
+       top: 60%;
+    right: 0;
+    }
+    
+    .wrapperTops >span{
+        font-size: 18px;
+        color: white;
+       position: absolute;
+       top: 80%;
+       left: 0;
+    }
+
+
+    .wrapperCenterTops>img{
+       height: 200px ;
+       width: 200px;
+    }
+    
+    .text{
+        margin-top: 20px;
+    }
+    
+    .text>h1{
+        color:#0B3778;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .text>span{
+        color:#000000;
+        font-style: normal;
+        font-size: 18px;
+    }
+    
+    .text2{
+        margin-top: 20px;
+        }
+        
+        .text2>h1{
+            color:#0B3778;
+            margin-bottom: 20px;
+            font-style: normal;
+            font-size: 35px;
+            }
+        
+            
+        .text2>span{
+            color:#000000;
+            font-style: normal;
+            font-size: 18px;
+        }
+
+        .wrapperCenterBottoms>img{
+            height:200px ;
+            width: 200px;
+         }
+
+         h2{ 
+            margin: 10px;
+            text-align: center;
+            color:#0B3778;
+            font-size: 18px;
+         }
+         
+}
+
+
+
+
+
