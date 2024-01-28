@@ -10,6 +10,7 @@ import { Icon } from "@iconify/react";
 export default function Home() {
   return (
     <>
+      <div> hi </div>
       <div className="topbarContainer">
         <NavBar />
         {/* <div className="topbarBottom">
